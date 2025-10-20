@@ -1,0 +1,25 @@
+{
+  "nav_home": "Inicio",
+  "nav_services": "Servicios",
+  "nav_projects": "Proyectos",
+  "nav_about": "Sobre Nosotros",
+  "nav_contact": "Contacto",
+  "hero_title": "Transformamos tus espacios con precisión, color y cuidado.",
+  "hero_slogan": [
+    "Pintura profesional que renueva tu espacio.",
+    "Acabados de calidad — interior y exterior.",
+    "Expertos de confianza para tu renovación."
+  ],
+  "hero_cta": "Solicita una cotización gratuita",
+  "services_title": "Nuestros Servicios",
+  "projects_title": "Proyectos",
+  "about_title": "Sobre Nosotros",
+  "contact_title": "Contacto",
+  "footer": "© 2025 YD & CG.LLC — Todos los derechos reservados",
+  "president_label": "Presidenta",
+  "vp_label": "Vicepresidente",
+  "address_label": "Dirección",
+  "email_label": "Correo",
+  "phone_label": "Teléfono",
+  "send_btn": "Enviar mensaje"
+}

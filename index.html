@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YD & CG – Painting and Renovation</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="assets/logo/logo-whitebg.png" alt="YD & CG logo" class="logo">
+      <div class="brand-text"><strong>YD & CG – Painting and Renovation</strong><div class="small">Naples - Florida</div></div>
+    </div>
+    <nav class="nav">
+      <a href="#home" data-i18n="nav_home">Inicio</a>
+      <a href="#services" data-i18n="nav_services">Servicios</a>
+      <a href="#projects" data-i18n="nav_projects">Proyectos</a>
+      <a href="#about" data-i18n="nav_about">Sobre Nosotros</a>
+      <a href="#contact" data-i18n="nav_contact">Contacto</a>
+    </nav>
+    <div class="lang-switch">
+      <button data-lang="es">ES</button>
+      <button data-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1 data-i18n="hero_title">Transformamos tus espacios con precisión, color y cuidado.</h1>
+        <p class="slogan" id="slogan">Pintura profesional que renueva tu espacio.</p>
+        <p><a href="#contact" class="btn" data-i18n="hero_cta">Solicita una cotización gratuita</a></p>
+      </div>
+      <div class="hero-image"><img src="assets/img/hero.jpg" alt="Hero"></div>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <div class="container">
+      <h2 data-i18n="services_title">Nuestros Servicios</h2>
+      <div class="grid services-grid">
+        <div class="card"><h3>Pintura Interior</h3><p>Preparación, imprimación y acabados duraderos para interiores.</p></div>
+        <div class="card"><h3>Pintura Exterior</h3><p>Acabados resistentes al clima para fachadas y exteriores.</p></div>
+        <div class="card"><h3>Renovación & Remodelación</h3><p>Mejoras estéticas y reparaciones para valorizar propiedades.</p></div>
+        <div class="card"><h3>Limpieza a presión</h3><p>Limpieza previa para preparar superficies.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 data-i18n="projects_title">Proyectos</h2>
+      <div class="grid gallery">
+        <div class="gallery-item"><img src="assets/img/project1.jpg" alt="Project 1"></div>
+        <div class="gallery-item"><img src="assets/img/project2.jpg" alt="Project 2"></div>
+        <div class="gallery-item"><img src="assets/img/project3.jpg" alt="Project 3"></div>
+        <div class="gallery-item"><img src="assets/img/project4.jpg" alt="Project 4"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div>
+        <h2 data-i18n="about_title">Sobre Nosotros</h2>
+        <p>YD and CG.LLC es una empresa local especializada en pintura arquitectónica y renovación de interiores y exteriores. Entregamos acabados de calidad y atención personalizada.</p>
+        <h3>Dirección</h3>
+        <p>2330 51 St Terrace, Naples, Florida, 34116</p>
+        <h3>Leadership</h3>
+        <ul>
+          <li><strong data-i18n="president_label">Presidenta</strong>: Yesenia Díaz — <a href="mailto:ydandecgleaningLLc@gmail.com">ydandecgleaningLLc@gmail.com</a> — Tel: <a href="tel:+12394289247">239-428-9247</a></li>
+          <li><strong data-i18n="vp_label">Vicepresidente</strong>: Alberto Pájaro — <a href="mailto:alpote20@hotmai.com">alpote20@hotmai.com</a> — Tel: <a href="tel:+17863552846">786-355-2846</a>, <a href="tel:+12397773436">239-777-3436</a></li>
+        </ul>
+      </div>
+      <aside class="person">
+        <h3>Nuestros Valores</h3>
+        <p>Compromiso, puntualidad y excelencia — cada proyecto incluye garantía de satisfacción.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div>
+        <h2 data-i18n="contact_title">Contacto</h2>
+
+        <!-- FORM: Formspree placeholder. Replace ACTION with your Formspree form endpoint (see README) -->
+        <form id="contactForm" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+          <input type="text" name="name" id="name" placeholder="Nombre" required>
+          <input type="email" name="email" id="email" placeholder="Correo" required>
+          <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+          <textarea name="message" id="message" rows="5" placeholder="Mensaje" required></textarea>
+          <button class="btn" type="submit" data-i18n="send_btn">Enviar mensaje</button>
+        </form>
+
+        <p style="margin-top:12px;font-size:14px;color:#6b7a86"><strong data-i18n="email_label">Correo</strong>: <a href="mailto:ydandecgleaningLLc@gmail.com">ydandecgleaningLLc@gmail.com</a></p>
+        <p><strong data-i18n="phone_label">Teléfono</strong>: <a href="tel:+12394289247">239-428-9247</a></p>
+      </div>
+      <div class="contact-info">
+        <p><strong data-i18n="president_label">Presidenta</strong>: Yesenia Díaz</p>
+        <p><strong data-i18n="vp_label">Vicepresidente</strong>: Alberto Pájaro</p>
+        <p><strong data-i18n="address_label">Dirección</strong>: 2330 51 St Terrace, Naples, FL, 34116</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="left"><span data-i18n="footer">© 2025 YD & CG.LLC — All rights reserved</span></div>
+    <div class="right small">Designed for YD & CG.LLC</div>
+  </div>
+</footer>
+
+<!-- WhatsApp button -->
+<a class="whatsapp-btn" href="https://wa.me/12394289247" target="_blank" title="WhatsApp">
+  <img src="assets/logo/logo-whitebg.png" alt="WA" style="height:48px;border-radius:8px;">
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>

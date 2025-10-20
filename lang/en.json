@@ -1,0 +1,25 @@
+{
+  "nav_home": "Home",
+  "nav_services": "Services",
+  "nav_projects": "Projects",
+  "nav_about": "About Us",
+  "nav_contact": "Contact",
+  "hero_title": "Transforming spaces with precision, color, and care.",
+  "hero_slogan": [
+    "Professional painting that renews your space.",
+    "Quality finishes — inside and out.",
+    "Trusted experts for your renovation."
+  ],
+  "hero_cta": "Get a Free Estimate",
+  "services_title": "Our Services",
+  "projects_title": "Projects",
+  "about_title": "About Us",
+  "contact_title": "Contact",
+  "footer": "© 2025 YD & CG.LLC — All rights reserved",
+  "president_label": "President",
+  "vp_label": "Vice President",
+  "address_label": "Address",
+  "email_label": "Email",
+  "phone_label": "Phone",
+  "send_btn": "Send message"
+}
